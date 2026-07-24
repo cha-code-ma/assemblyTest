@@ -28,4 +28,4 @@ ld divideDecimals.o -o divideDecimals
 ## All tasks:
 - `Biggestnumber.asm` is a progam where the biggest value is printed of an array.
 
-- `divideDecimals.asm` is a program where 2 values get devided with a decimal accuracy of your choice.
+- `divideDecimals.asm` is a program where 2 values get devided with an accuracy of your choice.

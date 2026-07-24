@@ -2,7 +2,7 @@ section .data
     a: dd 7
     b: dd 6
     accuracy: dd 5
-    ;The calculation will  be a/b with 'accuracy' decimals.
+    ;The calculation will  be a/b with 'accuracy' digits.
     text: dd 'Resultaat: '
     len equ $ - text
 section .bss
