@@ -6,15 +6,24 @@ in LINUX, go to the terminal and write this:
 
 sudo apt install nasm binutils
 
-nasm -f elf64 file.asm -o file.o
+- For biggestNumber:
 
-ld file.o -o file
+nasm -f elf64 biggestNumber.asm -o biggestNumber.o
 
-./file
+ld biggestNumber.o -o biggestNumber
+
+./biggestNumber
 
 echo $?
 
-file stands for the file name you want to run and after this you will see the result.
+- For divideDecimals: in the code, set a, b to desired values.
+
+nasm -f elf64 divideDecimals.asm -o divideDecimals.o
+
+ld divideDecimals.o -o divideDecimals
+
+./divideDecimals
+
 
 ## All tasks:
 - `Biggestnumber.asm` is a progam where the biggest value is printed of an array.
