@@ -1,5 +1,5 @@
 # BiggestNumber
-In this repository I will try to write some assembly code for very simple tasks, to understand how assembly is writen.
+In this repository I will try to write some assembly code for very simple tasks, to understand how assembly is writen. Like dividing with decimals and functions on a given list.
 
 ## How to run an assembly program:
 in LINUX, go to the terminal and write this:
